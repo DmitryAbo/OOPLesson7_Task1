@@ -40,7 +40,7 @@ public class Radio {
         if (manualInputStation > numStations - 1) {
             return;
         } else {
-            currentStation = manualInputStation;
+            this.currentStation = manualInputStation;
         }
     }
 
